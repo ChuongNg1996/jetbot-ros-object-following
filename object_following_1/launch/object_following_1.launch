@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <launch>
-  <node pkg="object_detection_1" type="my_detection_1.py" name="my_detection_1" output="screen"/>
+  <node pkg="object_following_1" type="my_detection_1.py" name="my_detection_1" output="screen"/>
   <node pkg="jetbot_ros" type="jetbot_motors.py" name="jetbot_motors"/>
 </launch>
