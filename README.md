@@ -16,7 +16,7 @@ The project uses:
    ```sh
    mkdir -p ~/catkin_ws/src
    ```
-* Go to the created ROS workspace, clone the [jetbot_ros](https://github.com/dusty-nv/jetbot_ros) repo (choose the correct path for your ROS) and build it. On terminal: 
+* Go to the created ROS workspace, clone the [jetbot_ros](https://github.com/dusty-nv/jetbot_ros) repo (choose the correct path for your ROS) and  and build them. On terminal: 
    ```sh
    cd ~/catkin_ws/src
    git clone https://github.com/dusty-nv/jetbot_ros -b melodic
@@ -24,3 +24,8 @@ The project uses:
    catkin_make
    ```
 * Download and build [jetson-inference](https://github.com/dusty-nv/jetson-inference) from this [GUIDE](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md).
+* 
+
+## Debugging 
+* Use `rostopic list` to see available ROS topics.
+* Use `rostopic echo /jetbot_motors/cmd_str` to see if the messages are read.
