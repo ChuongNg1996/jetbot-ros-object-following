@@ -30,6 +30,13 @@ The project uses:
    roslaunch object_detection_1 object_dectection_1.launch
    ```
  * The network may takes a few minutes to optimize for the first time (The next time it won't). After that, stand in front of the robot's camera, it will rotate so that the object's frame is approximately in the middle and go straight to the object.
+
+## API
+To be updated
+
 ## Debugging 
 * Use `rostopic list` to see available ROS topics.
 * Use `rostopic echo /jetbot_motors/cmd_str` to see if the messages are read.
+
+## Other
+* To make the commands run on startup, Ubuntu users can use `Startup Application` (beside `systemd`). Open `Startup Application` -> Add -> Name: `ROS Launch` (or anything) and Command: `terminator -e "bash -i -c 'sleep 3 && roslaunch jetbot_ros jetbot_motor.launch' "` -> Add -> Close.
