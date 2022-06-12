@@ -29,7 +29,7 @@ The project uses:
    ```sh
    roslaunch object_detection_1 object_dectection_1.launch
    ```
- * The network may takes a few minutes to optimize for the first time (The next time it won't). After that, stand in front of the robot's camera, it will rotate so that the object's frame is approximately in the middle and go straight to the object. The RESULT IS SHOWN HERE.
+ * The network may takes a few minutes to optimize for the first time (The next time it won't). After that, stand in front of the robot's camera, it will rotate so that the object's frame is approximately in the middle and go straight to the object.
 ## Debugging 
 * Use `rostopic list` to see available ROS topics.
 * Use `rostopic echo /jetbot_motors/cmd_str` to see if the messages are read.
