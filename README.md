@@ -1,1 +1,1 @@
-# jetbot-ros-object-following
+# Simple Object-Following Jetbot 
