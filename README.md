@@ -27,7 +27,7 @@ The project uses:
 * Download and build [jetson-inference](https://github.com/dusty-nv/jetson-inference) from this [GUIDE](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md).
 * Run the launch file.
    ```sh
-   s
+   roslaunch object_detection_1 object_dectection_1.launch
    ```
 ## Debugging 
 * Use `rostopic list` to see available ROS topics.
