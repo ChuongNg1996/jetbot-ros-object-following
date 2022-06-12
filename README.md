@@ -9,17 +9,18 @@ The project uses:
 * [Jetbot](https://jetbot.org/master/), which is a differential wheeled robot and its ros package [jetbot_ros](https://github.com/dusty-nv/jetbot_ros) for motor control.
 * [jetson-inference](https://github.com/dusty-nv/jetson-inference) which is an optimized AI framework for Jetson board.
 
-## Installation
+## Installation & Implementation
 * Install Python.
 * [Install ROS](http://wiki.ros.org/melodic/Installation/Ubuntu) (any version).
 * At /usr/home/"name" ("name" is arbitrary), create a ROS workspace. On terminal: 
    ```sh
    mkdir -p ~/catkin_ws/src
    ```
-* Go to the created ROS workspace, clone the [jetbot_ros](https://github.com/dusty-nv/jetbot_ros) repo (choose the correct path for your ROS) and  and build them. On terminal: 
+* Go to the created ROS workspace, clone the [jetbot_ros](https://github.com/dusty-nv/jetbot_ros) repo (choose the correct path for your ROS) and `jetbot-ros-object-following` package and build them. On terminal: 
    ```sh
    cd ~/catkin_ws/src
    git clone https://github.com/dusty-nv/jetbot_ros -b melodic
+   git clone 
    cd ..
    catkin_make
    ```
