@@ -8,6 +8,7 @@ The project uses:
 * [ROS Framework](http://wiki.ros.org/) (on Ubuntu) to alleviate concurrency management and module communication.
 * [Jetbot](https://jetbot.org/master/), which is a differential wheeled robot and its ros package [jetbot_ros](https://github.com/dusty-nv/jetbot_ros) for motor control.
 * [jetson-inference](https://github.com/dusty-nv/jetson-inference) which is an optimized AI framework for Jetson board.
+* [darknet_ros_msgs](https://github.com/leggedrobotics/darknet_ros) as ROS message template.
 
 ## Installation & Implementation
 * Install Python.
