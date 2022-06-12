@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>object_following_1</name>
+  <version>0.0.0</version>
+  <description>The object_following_1 package</description>
+  <maintainer email="chuong19111996@gmail.com">chuong</maintainer>
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>std_msgs</depend> 
+  <depend>darknet_ros_msgs</depend> 
+  <export>
+  </export>
+</package>
