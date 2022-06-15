@@ -28,6 +28,7 @@ The project uses:
 * Download and build [jetson-inference](https://github.com/dusty-nv/jetson-inference) from this [GUIDE](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md).
 * Run the launch file.
    ```sh
+   source ~/catkin_ws/devel/setup.bash
    roslaunch object_detection_1 object_dectection_1.launch
    ```
  * The network may takes a few minutes to optimize for the first time (The next time it won't). After that, stand in front of the robot's camera, it will rotate so that the object's frame is approximately in the middle and go straight to the object.
